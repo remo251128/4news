@@ -122,7 +122,22 @@ main {
         margin: 5px 5px; /* Ajuste para estar cerca de la imagen en pantallas pequeñas */
         font-size: var(--font-size-small);
     }
+
+    .icon-right {
+        right: 5%;
+        width: 50px;
+    }
 }
+
+.icon-right {
+    position: absolute;
+    right: 15%;
+    top: 20px;
+    width: 70px;  /* Adjust to match the size of i1 */
+    height: auto;
+}
+
+
 
 
 

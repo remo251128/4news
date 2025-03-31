@@ -59,6 +59,14 @@ h6 {
     text-align: left;
 }
 
+.icon-right {
+    width: 70px; /* Adjusted to match i1.png */
+    height: auto;
+    position: absolute;
+    right: 20%;
+    top: 20px;
+}
+
 @media only screen and (max-width: 600px) {
     main {
         margin: 10px 5%;
@@ -86,4 +94,12 @@ h6 {
     h6 {
         margin: 10px 5%;
     }
+
+    .icon-right {
+        right: 5%;
+        width: 50px;
+    }
+   
 }
+
+
