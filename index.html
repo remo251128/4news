@@ -1,0 +1,89 @@
+<!--SO FAR FUNCIONA AÑADIENDO IMAGES, TEXTO Y AÑDIENDO A LA LISTA json-->
+<!--AFILIAR A GOOGLE NOTICIAS?-->
+<!--FUNCIONALIDAD COMO BUSCAR, RECOMENDADOS-->
+<!--REVISAR COMO REACCIONA EN DISPSITIVO (DE PREF EN VARIOS CELULARES) LOS CAMBIOS A LA PAGINA EN TIEMPO REAL-->
+
+<!--COMYCONT SE PUEDEN VER EN NAV POR CUALQUIER, VER SI SE PUEDE CORREGIR-->
+<!--LISTA DESIRABLE QUALITIES (SECURITY FOR OWN DATA, STORAGE IMAGES AND TEXT, https? ETC)-->
+<!--YA ESTA FUNCIONANDO EL ALOJAMIENTO (https://remo251128.github.io/GolTotal/index.html) , AÑADIR UN DOMINIO PERSONALIZADO Y VER LIMITES DE TRAFICO, ESCALABILIDAD, ETC-->
+<!--ADEMAS CUANDO COMPRE EL DOMINIO: ASEGURAR QUE NO SEA RASTREABLE POR SEARCHERS COMO whois.icann.org o whois.net-->
+<!--Y AL CAMBIAR LA DIRECCION TAMBIEN ACTUALIZAR GOOGLE ANALYTICS SI ES NECERAIO PARA QUE TRACKEE EL NUEVO DOMINIO-->
+<!--IMAGENES (DERECHOS?)-->
+<!--TEXTO-->
+<!--LINKS A REDES SOCIALES Y COMENZAR A PROMOCIONAR DE VERDAD (hacerlo responsive, both kind of dispostivs)-->
+
+<!--CUANDO SE GANE POPULARIDAD: DERECHOS DE AUTOR, MARCA, EMPRESA?, Términos y condiciones, acerca, contacto y política de privacidad, mensaje de copyright-->
+<!--CUANDO SE COMIENCE A LUC: CONSIDERACIONES FISCALES-->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <head>
+        
+        <!-- PNG format (alternative) -->
+        <link rel="icon" type="image/png" href="Icons/Favicons/favicon-16x16.png">
+        
+        <!-- Multiple sizes (optional, for better compatibility) -->
+        <link rel="icon" sizes="16x16" href="Icons\Favicons\favicon-16x16.png">
+        <link rel="icon" sizes="32x32" href="Icons\Favicons\favicon-32x32.png">
+        <link rel="icon" sizes="48x48" href="Icons\Favicons\favicon-48x48.png">
+        
+        <!-- Apple Touch Icon (for iOS devices) -->
+        <link rel="apple-touch-icon" href="Icons\Favicons\favicon-16x16.png">  
+
+    
+    </head>
+
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FSM2TSBLSE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FSM2TSBLSE');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gol Total Perú | Últimas noticias de la Liga 1, Universitario, Alianza Lima, Sporting Cristal, Selección Peruana y más. Todo lo que pasa, al minuto y en un único portal de fútbol.">
+    <meta name="keywords" content="futbol, peru, noticias, perú, fútbol, futbolero, liga 1, refuerzos, contrataciones, U, universitario, alianza lima, cristal, selección, responsive">
+    <meta name="author" content="Gol Total Perú">
+   
+    <title>Gol Total Perú</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Botón de recarga -->
+        <button class="reload-button" aria-label="Recargar página">
+            <img src="Logo/logo.png" alt="Recargar" class="button-icon">
+        </button>
+
+        <!-- Banner -->
+        <section class="banner" id="banner" aria-label="Banner"></section>
+
+        <!-- Últimas Noticias -->
+        <h2 class="latest-news">Latest</h2>
+
+        <!-- Contenido Principal -->
+        <main>
+            <div class="image-container" id="imageContainer" aria-live="polite"></div>
+        </main>
+    </div>
+
+    <script src="index.js" defer></script>
+</body>
+
+
+</html>
+
