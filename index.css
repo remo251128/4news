@@ -124,18 +124,16 @@ main {
     }
 
     .icon-right {
-        width: 37.5%; /* 75% of i1's mobile size */
-        max-width: 150px;
-        right: 5%;
+        display: none;
     }
 }
 
 .icon-right {
-    width: calc(11.25% - 30px); /* Matches i1.png */
-    max-width: 150px; /* Same as i1.png */
+    width: calc(11.25% - 30px); /* 75% of i1 */
+    max-width: 150px;
     height: auto;
     position: absolute;
-    right: 15%; /* Adjusted to keep within main margins */
+    right: 15%;
     top: 20px;
 }
 
